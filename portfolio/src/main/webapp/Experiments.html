@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+</head>
+<body>
+    <form action="/form-handler" method="POST">
+        <p>Enter some text here:</p>
+        <textarea name="text-input">hello world</textarea>
+        <br/>
+        <input type="submit" />
+    </form>
+    <p>Click <a href="/hello">here</a> to see content created by server code.</p>
+    <p>Click here to get a random message:</p>
+    <div id="greeting-container"></div>
+    <button onclick="addRandomGreeting()">Hello</button>
+</body>
+</html>
