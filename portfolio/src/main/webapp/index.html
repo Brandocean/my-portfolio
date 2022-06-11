@@ -3,16 +3,36 @@
   <head>
     <meta charset="UTF-8">
     <title>My Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
     <script src="script.js"></script>
+
     <style>
         body {
           background-image: url('https://img.freepik.com/free-photo/white-concrete-wall_53876-92803.jpg');
         }
         h1 {text-align: center;}
     </style>
+
   </head>
   <body>
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <label class="logo">BrandoceanX</label>
+        <ul>
+            <li><a class="active" href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Experience</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Feedback</a></li>
+            <li><a href="#">Experiments</a></li>
+        </ul>
+    </nav>
     <div id="content">
       <h1>Brandon's Portfolio</h1>
       <img class="center" src="/images/Brandocean.jpg" width="300" height="300"/>
