@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Page Title</title>
+    <meta charset="UTF-8">
+    <title>Page Title</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
 </head>
 <body>
     <form action="/form-handler" method="POST">
@@ -14,5 +17,23 @@
     <p>Click here to get a random message:</p>
     <div id="greeting-container"></div>
     <button onclick="addRandomGreeting()">Hello</button>
+
+    <h1>Server Date Example</h1>
+    <p>Click this button to see the server's current date.</p>
+    <button onclick="showServerTime();">
+      Get date
+    </button>
+    <p id="date-container"></p>
+    <p>Click <a href="/date">here</a> to see the server response directly.</p>
+
+    <h1>Get Server Stats</h1>
+    <p>Click this button to see the server's current date.</p>
+    <button onclick="getServerStats();">
+      Get ServerStats
+    </button>
+    <p id="server-stats-container"></p>
+    <p>Click <a href="/server-stats">here</a> to see the server response directly.</p>
+
+
 </body>
 </html>
