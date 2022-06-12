@@ -34,6 +34,27 @@
     <p id="server-stats-container"></p>
     <p>Click <a href="/server-stats">here</a> to see the server response directly.</p>
 
+    <h1>Text Processor</h1>
+    <form action="/text" method="POST">
+
+        <p>Enter a comma-separated list of words:</p>
+        <textarea name="text-input">one, two, three</textarea>
+        <br/><br/>
+  
+        <p>Choose some options:</p>
+        <label>
+          <input type="checkbox" name="upper-case" value="true">
+          Upper-case
+        </label>
+        <br/>
+        <label>
+          <input type="checkbox" name="sort" value="true">
+          Alphabetize
+        </label>
+        <br/><br/>
+  
+        <input type="submit" />
+    </form>
 
 </body>
 </html>
