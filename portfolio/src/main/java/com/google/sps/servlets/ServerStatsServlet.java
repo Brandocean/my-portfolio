@@ -15,6 +15,9 @@ public final class ServerStatsServlet extends HttpServlet {
   private final Date startTime = new Date();
 
   @Override
+/**
+   * Get stats of the server
+   */
   public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
     // Calculate server stats
     Date currentTime = new Date();

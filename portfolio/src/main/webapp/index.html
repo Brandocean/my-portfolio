@@ -18,11 +18,11 @@
 		<nav>
 			<h2 class="logo">Portfo<span>lio</span></h2>
 			<ul>
-				<li><a href="#">Home</a></li>
-				<li><a href="#">About Us</a></li>
-				<li><a href="#">Projects</a></li>
-				<li><a href="#">Experience</a></li>
-				<li><a href="#">Contact Us</a></li>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="index.html#about">About Us</a></li>
+				<li><a href="index.html#service">Projects</a></li>
+				<li><a href="index.html#">Experience</a></li>
+				<li><a href="index.html#contact-me">Contact Us</a></li>
                 <li><a href="Experiments.html">Experiments</a></li>
 			</ul>
 			<a href="#" class="btn">Subscribe</a>
@@ -33,8 +33,8 @@
 			<h1>Brandocean <span>Rivera</span></h1>
 			<h3>I'am a Software Engineer</h3>
 			<div class="newslatter">
-				<form>
-					<input type="email" name="email" id="mail" placeholder="Enter Your Email">
+				<form action="/form-handler" method="POST">
+					<input type="email" name="text-input" id="mail" placeholder="Enter Your Email">
 					<input type="submit" name="submit" value="Lets Start">
 				</form>
 			</div>
@@ -42,7 +42,7 @@
 	</div>
 
     <!-- About section -->
-    <section class="about">
+    <section class="about" id="about">
 		<div class="main">
 			<img src="/images/Brandocean.jpg">
 			<div class="about-text">
@@ -60,7 +60,7 @@
 	</section>
 
     <!-- Service section -->
-    <div class="service">
+    <div class="service" id="service">
 		<div class="title">
 			<h2>My projects</h2>
 		</div>
@@ -68,10 +68,9 @@
 		<div class="box">
 			<div class="card">
 				<i class="fas fa-bars"></i>
-				<h5>Web Development</h5>
+				<h5>Plant monitoring with IoT</h5>
 				<div class="pra">
-					<p>Every website should be built with two primary goals: Firstly, it needs to work across all devices. Secondly, it needs to be fast as possible.</p>
-
+					<p>October-November 2021. Web Service that shows the variables of a plant-like temperature, sunlight, humidity in real-time</p>
 					<p style="text-align: center;">
 						<a class="button" href="#">Read More</a>
 					</p>
@@ -80,10 +79,9 @@
 
 			<div class="card">
 				<i class="far fa-user"></i>
-				<h5>Web Development</h5>
+				<h5>Thermal Investment Challenge</h5>
 				<div class="pra">
-					<p>Every website should be built with two primary goals: Firstly, it needs to work across all devices. Secondly, it needs to be fast as possible.</p>
-
+					<p>September-October 2020. Data analysis on the phenomenon of thermal inversion with 3D modeling in MATLAB.</p>
 					<p style="text-align: center;">
 						<a class="button" href="#">Read More</a>
 					</p>
@@ -92,10 +90,9 @@
 
 			<div class="card">
 				<i class="far fa-bell"></i>
-				<h5>Web Development</h5>
+				<h5>Product design in the glass industry</h5>
 				<div class="pra">
-					<p>Every website should be built with two primary goals: Firstly, it needs to work across all devices. Secondly, it needs to be fast as possible.</p>
-
+					<p>February-March 2021. Construction of an innovative design of glass including a circuit of LED lights for exclusive events.</p>
 					<p style="text-align: center;">
 						<a class="button" href="#">Read More</a>
 					</p>
@@ -105,9 +102,9 @@
 	</div>
 
     <!-- Contact section -->
-    <div class="contact-me">
-		<p>Let Me Get You A Beautiful Website.</p>
-		<a class="button-two" href="#">Hire Me</a>
+    <div class="contact-me" id="contact-me">
+        <p id="greeting-container"></p>
+        <button onclick="addRandomGreeting()">Click on me!</button>
 	</div>
 
     <!-- footer section -->
@@ -122,26 +119,6 @@
 		</div>
 		<p class="end">CopyRight By Brandocean Rivera</p>
 	</footer>
-
-    <!-- <div id="content">
-      <h2>My projects</h2>
-      <ul>
-        <li><b>Plant monitoring with IoT:</b> October-November 2021. Web Service
-            that shows the variables of a plant-like temperature, sunlight, humidity
-            in real-time</li>
-        <li><b>Thermal Investment Challenge:</b> September-October 2020. Data
-            analysis on the phenomenon of thermal inversion with 3D modeling in
-            MATLAB.</li>
-        <li><b>Challenge Innovation in product design in the glass industry:</b>
-            February-March 2021. Construction of an innovative design of glass
-            including a circuit of LED lights.</li>
-      </ul>
-      <h2>Contact me</h2>
-      <ul>
-          <li><a href="https://www.linkedin.com/in/brandon-rivera-239915179/">Linkedin</a></li>
-          <li><a href="https://github.com/Brandocean">GitHub</a></li>
-      </ul>
-    </div> -->
 
   </body>
 </html>
