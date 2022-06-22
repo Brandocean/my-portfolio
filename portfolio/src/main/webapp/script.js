@@ -75,15 +75,17 @@ function drawChart() {
   data.addColumn('string', 'Animal');
   data.addColumn('number', 'Count');
         data.addRows([
-          ['Lions', 10],
-          ['Tigers', 5],
-          ['Bears', 15]
+          ['School', 8],
+          ['Projects', 6],
+          ['Family', 1],
+          ['Habits', 1],
+          ['Sleep', 8]
         ]);
 
   const options = {
-    'title': 'Zoo Animals',
+    'title': 'My daily routine',
     'width':500,
-    'height':400
+    'height':500
   };
 
   const chart = new google.visualization.PieChart(
