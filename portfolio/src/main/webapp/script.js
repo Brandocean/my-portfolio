@@ -16,12 +16,12 @@
  * Adds a random greeting to the page.
  */
 function addRandomGreeting() {
-  const frase1 = 'You can tell me Brandocean';
-  const frase2 = 'I like watching anime';
-  const frase3 = 'I have 3 dogs';
-  const frase4 = 'I study at Tec de Monterrey in Cuernavaca, Morelos';
-  const greetings =
-      [frase1, frase2, frase3, frase4];
+  const greetings = [
+      'You can tell me Brandocean', 
+      'I like watching anime', 
+      'I have 3 dogs', 
+      'I study at Tec de Monterrey in Cuernavaca, Morelos'
+   ];
 
   // Pick a random greeting.
   const greeting = greetings[Math.floor(Math.random() * greetings.length)];
