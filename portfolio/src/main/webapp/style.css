@@ -62,7 +62,7 @@ nav ul li a{
 }
 nav ul li a:hover{
 	color: #f9004d;
-	transition: .4s;
+	transition: 0.4s;
 }
 .btn{
 	background-color:#f9004d;
@@ -72,7 +72,7 @@ nav ul li a:hover{
 	font-weight: bold;
 	padding: 10px 25px;
 	border-radius: 30px;
-	transition: transform .4s; 
+	transition: transform 0.4s; 
 }
 .btn:hover{
 	transform: scale(1.2);
@@ -173,7 +173,7 @@ button{
 	font-weight: bold;
 	padding: 13px 30px;
 	border-radius: 30px;
-	transition: .4s; 
+	transition: 0.4s; 
 }
 button:hover{
 	background-color: transparent;
@@ -237,7 +237,7 @@ h5{
 	font-weight: bold;
 	padding: 9px 22px;
 	border-radius: 30px;
-	transition: .4s; 
+	transition: 0.4s; 
 }
 .card .button:hover{
 	background-color: transparent;
@@ -267,7 +267,7 @@ h5{
 	font-weight: bold;
 	padding: 13px 30px;
 	border-radius: 30px;
-	transition: .4s; 
+	transition: 0.4s; 
 }
 .contact-me .button-two:hover{
 	background-color: transparent;

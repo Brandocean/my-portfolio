@@ -75,11 +75,11 @@ function drawChart() {
   data.addColumn('string', 'Animal');
   data.addColumn('number', 'Count');
         data.addRows([
-          ['School', 8],
-          ['Projects', 6],
-          ['Family', 1],
-          ['Habits', 1],
-          ['Sleep', 8]
+            ['School', 8],
+            ['Projects', 6],
+            ['Family', 1],
+            ['Habits', 1],
+            ['Sleep', 8]
         ]);
 
   const options = {
@@ -89,6 +89,6 @@ function drawChart() {
   };
 
   const chart = new google.visualization.PieChart(
-      document.getElementById('chart-container'));
+    document.getElementById('chart-container'));
   chart.draw(data, options);
 }

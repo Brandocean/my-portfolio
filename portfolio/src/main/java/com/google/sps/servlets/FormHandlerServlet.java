@@ -7,9 +7,9 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 @WebServlet("/form-handler")
-/**
-   * Function that prints the value entered by the user
-   */
+
+// Function that do post from a Servlet.
+
 public class FormHandlerServlet extends HttpServlet {
 
   @Override

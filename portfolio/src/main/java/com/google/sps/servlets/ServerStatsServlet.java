@@ -9,15 +9,15 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+//Get stats of the server
+
 @WebServlet("/server-stats")
 public final class ServerStatsServlet extends HttpServlet {
 
   private final Date startTime = new Date();
 
   @Override
-/**
-   * Get stats of the server
-   */
+   
   public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
     // Calculate server stats
     Date currentTime = new Date();
@@ -33,9 +33,9 @@ public final class ServerStatsServlet extends HttpServlet {
     response.getWriter().println(json);
   }
 
-  /**
-   * Converts a ServerStats instance into a JSON string using manual String concatentation.
-   */
+  
+  // Converts a ServerStats instance into a JSON string using manual String concatentation.
+
   private String convertToJson(ServerStats serverStats) {
     String json = "{";
     json += "\"startTime\": ";
